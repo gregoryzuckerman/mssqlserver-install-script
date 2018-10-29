@@ -5,10 +5,10 @@
 #
 # Microsoft SQL Server 2017 Install Script
 #
-# A simple BASH script to install MS SQL Server from the Microsoft YUM repository.
+# A simple BASH script to install MS SQL Server from the Microsoft DNF repository.
 #
 # Author    : Gregory Zuckerman
-# Created   : 8 Oct 2017
+# Created   : 29 Oct 2018
 # Github    : https://github.com/gregoryzuckerman/mssqlserver-install-script/
 #
 ######################################################################################
@@ -19,7 +19,7 @@ tput setaf 4;
 echo ""
 echo -e "$(tput bold)Microsoft SQL Server 2017 Installer Script$(tput sgr 0)\n"
 echo    "$(tput bold)Linux Version:    Fedora 29 Workstation/Server$(tput sgr 0)"
-echo -e "$(tput bold)Script Version:   1.0$(tput sgr 0)\n"
+echo -e "$(tput bold)Script Version:   1.0.1$(tput sgr 0)\n"
   tput setaf 7;
 
 read -p "New install or Upgrade of Microsoft SQL Server 2017? (n/u): " install_type
@@ -33,7 +33,7 @@ case "$install_type" in
 u|U )
 
  tput setaf 7;
-   yum update mssql-server
+   dnf upgrade mssql-server
     echo ""
      echo -e "Check for upgrade complete\n";;
 
