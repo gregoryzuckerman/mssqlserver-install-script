@@ -28,7 +28,7 @@ echo ""
 echo -e "Imported the public repository GPG keys.\n"
 echo -e "Registered the Microsoft SQL Server Ubuntu repository.\n"
       tput setaf 7;
-        sudo add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list)"
+        sudo add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list)"
           sudo apt-get update
             sudo apt-get install -y mssql-server
               tput setaf 2;
