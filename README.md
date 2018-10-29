@@ -15,16 +15,29 @@ SQL Server 2017 has the following system requirements for Linux:
 
 Usage:
 
-RHEL 7.3 or 7.4:
+RHEL 7 > 7.5:
 
 ```bash
-wget https://raw.githubusercontent.com/gregoryzuckerman/mssqlserver-install-script/master/mssqlserver-rhel.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
+wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-rhel-75.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
+
+```
+Fedora 29:
+
+```bash
+wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-fedora-29.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
 
 ```
 
 Ubuntu 16.04:
 
 ```bash
-wget https://raw.githubusercontent.com/gregoryzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu.sh && chmod u+x mssqlserver-ubuntu.sh && sudo ./mssqlserver-ubuntu.sh
+wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu-16.04.sh && chmod u+x mssqlserver-ubuntu.sh && sudo ./mssqlserver-ubuntu.sh
+
+```
+
+Ubuntu 18.04:
+
+```bash
+wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu-18.04.sh && chmod u+x mssqlserver-ubuntu.sh && sudo ./mssqlserver-ubuntu.sh
 
 ```
