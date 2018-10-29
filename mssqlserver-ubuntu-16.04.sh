@@ -53,7 +53,7 @@ echo -e "$(tput setaf 7)If you plan to connect remotely, you will also need to o
               echo ""
               echo -e "Imported the public repository GPG keys.\n"
               echo "Registering the Microsoft Ubuntu repository."
-                sudo add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list)"
+                sudo add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list)"
               echo "Installing Tools"
                 sudo apt-get update
                   sudo apt-get install -y mssql-tools unixodbc-dev
