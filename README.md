@@ -17,25 +17,16 @@ Usage:
 
 Red Hat Enterprise Linux 7 > 8:
 
-![Command for RHEL 7 > 8](https://s3-eu-west-1.amazonaws.com/s3.gregoryzuckerman.dev/rhel75-v2.svg)
+![Command for RHEL 7 > 8](https://s3-eu-west-1.amazonaws.com/s3.gregoryzuckerman.dev/rhel7-8.svg)
 
 Fedora 29:
 
-```bash
-wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-fedora-29.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
-
-```
+![Command for Fedora 29](https://s3-eu-west-1.amazonaws.com/s3.gregoryzuckerman.dev/fedora29.svg)
 
 Ubuntu 16.04:
 
-```bash
-wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu-16.04.sh && chmod u+x mssqlserver-ubuntu.sh && sudo ./mssqlserver-ubuntu.sh
-
-```
+![Command for Ubuntu 16.04](https://s3-eu-west-1.amazonaws.com/s3.gregoryzuckerman.dev/ubuntu1604.svg)
 
 Ubuntu 18.04:
 
-```bash
-wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-ubuntu-18.04.sh && chmod u+x mssqlserver-ubuntu.sh && sudo ./mssqlserver-ubuntu.sh
-
-```
+![Command for Ubuntu 18.04](https://s3-eu-west-1.amazonaws.com/s3.gregoryzuckerman.dev/ubuntu1804.svg)
