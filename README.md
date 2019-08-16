@@ -21,11 +21,7 @@ RHEL 7 > 7.5:
 wget https://raw.githubusercontent.com/gzuckerman/mssqlserver-install-script/master/mssqlserver-rhel-75.sh && chmod u+x mssqlserver-rhel.sh && sudo ./mssqlserver-rhel.sh
 
 ```
-<iframe
-  src="https://carbon.now.sh/embed/fd5521295db02c5996aaffcf8720a176"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+![Command for RHEL 7.5](https://s3.gregoryzuckerman.dev/rhel75.svg)
 
 Fedora 29:
 
